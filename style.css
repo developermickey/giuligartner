@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Mint Grotesk', sans-serif;
+    src: url(./font/Mint_Grotesk_Medium.ttf);
+}
+@font-face {
+    font-family: Roslindale;
+    src: url(./font/Roslindale-DisplayCondensedRegular-Testing.otf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+#main {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    position: relative;
+}
+#main #nav {
+    width: 80%;
+    height: 100px;
+    background: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#main #nav .navLeft {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+#main #nav .navLeft a {
+    text-decoration: none;
+    color: #f3f6fa;
+    font-size: 16px;
+    font-family: 'Mint Grotesk',sans-serif;
+    font-size: 11px;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    height: 32px;
+    padding: 10px 15px 10px;
+    border: 1px solid #f3f6fa;
+    border-radius: 24px;
+    background-color: rgba(243,246,250,.01);
+    cursor: pointer;
+    position: relative;
+}
+.buttona {
+border-color: currentcolor;
+color: currentColor;
+}
+#main #nav .navCenter {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+#main #nav .navCenter .logo path{
+    fill: #f3f6fa;
+  }
+#main #nav .navRight {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+#main #nav .navRight a {
+    text-decoration: none;
+    color: #f3f6fa;
+    font-size: 16px;
+    font-family: 'Mint Grotesk',sans-serif;
+    font-size: 11px;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    height: 32px;
+    padding: 10px 15px 10px;
+    border: 1px solid #f3f6fa;
+    border-radius: 24px;
+    background-color: rgba(243,246,250,.01);
+    cursor: pointer;
+    position: relative;
+}
+#main .mainHeroSection {
+    height: 80vh;
+    width: 80%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#main .mainHeroSection video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  z-index: 0;
+  border-radius: 40px;
+}
+
+#main  .mainHeroSection .mainHeroHeading {
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  color: #f3f6fa;
+  padding: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Roslindale;
+}
+#main  .mainHeroSection .mainHeroHeading h2{
+    margin: 0 0 24px;
+    font-family: Roslindale;
+    font-size: 100px;
+    line-height: 1em;
+    font-weight: 400;
+    color: #f3f6fa;
+  }
